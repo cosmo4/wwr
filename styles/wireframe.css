@@ -1,3 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Open+Sans&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #A8DADC   ;
+  --secondary-color: #457B9D ;
+  --accent1-color: #1D3557;
+  --accent2-color: white;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Bungee Spice";
+  --paragraph-font: Lato, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #A8DADC;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #A8DADC; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #A8DADC  ;
+  --nav-link-color: white;
+  --nav-background-color: #1D3557;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #A8DADC;
+}
+nav {
+    background-color: var(--nav-background-color);
+}
+nav a {
+    background-color: var(--nav-background-color);
+    color: var(--nav-link-color);
+    font-family: var(--heading-font)
+    text-align: center;
+    text-decoration: none;
+    margin:10%
+}
+
 .banner{
     background-color: rgb(78, 140, 140);
 }
