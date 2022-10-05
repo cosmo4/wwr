@@ -29,10 +29,10 @@ nav {
 nav a {
     background-color: var(--nav-background-color);
     color: var(--nav-link-color);
-    font-family: var(--heading-font)
+    font-family: var(--heading-font);
     text-align: center;
     text-decoration: none;
-    margin:10%
+    
 }
 
 .banner{
