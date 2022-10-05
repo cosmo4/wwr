@@ -32,6 +32,8 @@ nav a {
     font-family: var(--heading-font);
     text-align: center;
     text-decoration: none;
+    font-size: 3em;
+    margin: 2%;
     
 }
 
